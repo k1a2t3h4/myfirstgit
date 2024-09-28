@@ -1,0 +1,7 @@
+<script>
+    var currentLocation = window.location.pathname;
+    if (!currentLocation.includes('/index.html')) {
+      window.location.replace('/index.html?redirect=' + currentLocation);
+    }
+  </script>
+  
